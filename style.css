@@ -12,7 +12,7 @@ body {
 
 i {
   position: absolute;
-  height: 200px;
+  height: 100px;
   background: linear-gradient(transparent, white);
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
@@ -21,17 +21,17 @@ i {
 
 i:nth-child(3n+1)
 {
-background: linear-gradient(transparent, #0ff);
+background: linear-gradient(transparent, #FFFF);
 }
 
 i:nth-child(3n+2)
 {
-background: linear-gradient(transparent, rgb(3, 61, 61));
+background: linear-gradient(transparent, rgb(89, 175, 175));
 }
 
 i:nth-child(3n+3)
 {
-background: linear-gradient(transparent, rgb(253, 253, 253));
+background: linear-gradient(transparent, rgb(2, 66, 63));
 }
 
 @keyframes animate {
